@@ -1,0 +1,8 @@
+html
+        script(src='#{server_ip_address}/chat_client.js')
+        script(src='#{server_ip_address}/socket.io/socket.io.js')
+        .chat-content
+        input( class="chat-message" placeholder="Tu mensaje:")
+        br
+        input(type='button', value='Cerrar' class='chat-button chat-close-conn')
+        input(type='button', value='Enviar' class="chat-button chat-sent")
